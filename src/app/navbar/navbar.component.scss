@@ -1,0 +1,21 @@
+.navbar{
+  ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    .logo{
+      flex-basis: 40%;
+      h1{
+        margin: 0;
+        padding: 0;
+      }
+    }
+    .search{
+      flex-basis: 20%;
+    }
+    .nav-link{
+      flex-basis: 10%;
+      float: right;
+    }
+  }
+}
